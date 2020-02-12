@@ -1,12 +1,14 @@
+
 //Leer los valores y crear un array con ellos
 
-var selectedRow = null
+var data = Leer();
 
-function Leer(){ 
+function Leer(){   
   var data = {};
   data["nom"] = document.getElementById("nom").value;
   data["ape"] = document.getElementById("ape").value;
   data["pais"] = document.getElementById("pais").value;
+
   return data;
 }
 
@@ -42,12 +44,29 @@ function Vaciar(){
 
 //Posicionarse en los valores para editarlos
 
+
 function Editar(columna){
   filaActual = columna.parentElement.parentElement;
   document.getElementById('nom').value = filaActual.cells[0].innerHTML;
   document.getElementById('ape').value = filaActual.cells[1].innerHTML;
   document.getElementById('pais').value = filaActual.cells[2].innerHTML;
+
 }
+
+
+
+function Ed(){
+
+  data['nom'] = document.getElementById('nom').value;
+  data['ape'] = document.getElementById('ape').value;
+  data['pais'] = document.getElementById('pais').value;
+
+  Vaciar();
+}
+
+
+
+
 
 function Borrar(columna) {
   if (confirm('¿Desea borrar este registro?')) {
@@ -56,19 +75,4 @@ function Borrar(columna) {
       Vaciar();
   }
 }
-
-function updateRecord(data) {
-  selectedRow.cells[0].innerHTML = data.nom;
-  selectedRow.cells[1].innerHTML = data.ape;
-  selectedRow.cells[2].innerHTML = data.pais;
-}
-
-
-
-
-
-
-
-
-
 
