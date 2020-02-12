@@ -1,5 +1,7 @@
 //Leer los valores y crear un array con ellos
 
+var selectedRow = null
+
 function Leer(){ 
   var data = {};
   data["nom"] = document.getElementById("nom").value;
@@ -23,10 +25,12 @@ function Insertar_datos_a_tabla(datos){
 
 
 function onFormSubmit() {
-  let datos = Leer();
+  var datos = Leer();
   Insertar_datos_a_tabla(datos);
 
 }
+
+
 
 //Vaciar los input despues de escribir los datos
 
@@ -45,14 +49,19 @@ function Editar(columna){
   document.getElementById('pais').value = filaActual.cells[2].innerHTML;
 }
 
-function Borrar(td) {
+function Borrar(columna) {
   if (confirm('¿Desea borrar este registro?')) {
-      fila = td.parentElement.parentElement;
+      fila = columna.parentElement.parentElement;
       document.getElementById('tabla').deleteRow(fila.rowIndex);
       Vaciar();
   }
 }
 
+function updateRecord(data) {
+  selectedRow.cells[0].innerHTML = data.nom;
+  selectedRow.cells[1].innerHTML = data.ape;
+  selectedRow.cells[2].innerHTML = data.pais;
+}
 
 
 
