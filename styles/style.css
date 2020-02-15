@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -12,7 +11,6 @@ body{
     margin-top: 0;
     padding-top: 0;
 }
-
 .header a{
     font-size: 1em;
     font-family: 'Quicksand', sans-serif;
@@ -22,7 +20,6 @@ body{
     display: flex;
     align-items: center;
 }
-
 .logo{
     display: flex;
     margin-block-start: 3px;
@@ -30,18 +27,12 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
 .logo img{
     margin: 0px 0px 0px 5px ;
     display: flex;
     padding: 0;
     border: 0;
 }
-
-.menu li{
-    display: inline; /*para poner la lista en horizontal*/
-}
-
 .header ol{
     list-style: none; 
     display: flex; /*Sirve para poner la lista de elementos de la lista horizontalmente*/ 
@@ -50,26 +41,23 @@ body{
 .header ol li{
     height: inherit;
 }
-
 .link:hover {
     color: white;
     background-color: #00438D;
     border: 0.5px solid #D5D9D9;
 }
-
 ol{
     margin: 0;
     padding: 0;
 }
-
 /*menu*/
-
 .menu{
     height: inherit;
 }
-
+.menu li{
+    display: inline; /*para poner la lista en horizontal*/
+}
 /*Footer*/
-
 .footer{
   display: block;
   justify-content: center;
@@ -87,7 +75,6 @@ text-decoration: none;
   height: 32px;
   display: inline-block;
 }
-
 .footer-fb{
 background-image: url('../images/fb.ico');
 }
@@ -103,51 +90,18 @@ background-image: url('../images/github.ico');
 .footer-linkedin{
     background-image: url('../images/linkedin.ico');
 }
-
 /*End Footer*/
-
-
-/*Lo del formulario*/
-
-/* input[type='submit'], button, [aria-label]{
-    cursor: pointer;
-  }
-#spoiler{
-   display: none;
-} */
-/* input[type=submit]{
-    width: 30%;
-    background-color: #ddd;
-    color: #000;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-} */
-
-
-
 form{
- 
     text-align: center;
-    
 }
-
 .tablita{
-    display: inline-block;
-    
+    display: inline-block;    
 }
-
-
-
 /*Tablaaaaaa Estilos*/
 .tabla{
 border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
 font-family: 'Quicksand', sans-serif;
 }
-
-
 table tr th{
     border: 1px solid #D5D9D9;
     width: 100px;
@@ -155,32 +109,24 @@ table tr th{
     color: white;
     background-color: #00438D;
 }
-
 /* Para el estilo de las nuevas celdas */
 td {
     border: 1px solid #D5D9D9;
     width: 100px;
     height: 25px;
 }
-
 .caja{
     display: block;
-
-
 }
-
 .caja label{
     font-family: 'Quicksand', sans-serif;
 }
-
 .caja input{
     width: 8em;
     height: 2em;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    
+    font-family: 'Quicksand', sans-serif;  
 }
-
 .submit{
     width: 8em;
     height: 2em;
