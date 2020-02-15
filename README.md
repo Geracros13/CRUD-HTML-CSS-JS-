@@ -10,4 +10,4 @@ CRUD se usa también a veces para describir convenciones de interfaz de usuario 
 
 ### Funcionamiento
 
-![Tabla donde iran los registros](https://raw.githubusercontent.com/Geracros13/repositorioCRUD-HTML-CSS-JS-/master/images/uno.png)
+![Tabla donde iran los registros](https://raw.githubusercontent.com/Geracros13/repositorioCRUD-HTML-CSS-JS-/master/assets/uno.png)
