@@ -17,4 +17,5 @@ Para que luego se ingrese la informacion que ira en nuestra tabla!
 Donde tendremos las opciones de editar y eliminar registros para completar nuestro CRUD con HTML, CSS y JS
 
 ## Contacto
-[Linkedid](https://gt.linkedin.com/in/manuel-flores-abb71a15a/%7Bcountry%3Dno%2C+language%3Dno%7D?trk=people-guest_profile-result-card_result-card_full-click)
+[Linkedin](https://gt.linkedin.com/in/manuel-flores-abb71a15a/%7Bcountry%3Dno%2C+language%3Dno%7D?trk=people-guest_profile-result-card_result-card_full-click)
+[Twitter](https://twitter.com/Gerardo_fq)
