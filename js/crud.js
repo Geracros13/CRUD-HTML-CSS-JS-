@@ -15,7 +15,7 @@ function Leer() {
     DataForm["nom"] = document.getElementById("nom").value
     DataForm["ape"] = document.getElementById("ape").value
     DataForm["pais"] = document.getElementById("pais").value
-    return DataForm;
+    return DataForm
 }
 
 function InsertarDatos(data) {
@@ -34,7 +34,7 @@ function Vaciar() {
     document.getElementById("nom").value = ""
     document.getElementById("ape").value = ""
     document.getElementById("pais").value = ""
-    Fila = null;
+    Fila = null
 }
 
 function Editarr(td) {
