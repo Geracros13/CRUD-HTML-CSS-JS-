@@ -8,6 +8,7 @@
     <title>Crud JS</title>
 </head>
 <body>
+
     <header class="header">
         <figure class="logo">
           <img src="images/icon_page.png" height="60" alt="Logo de la pagina" />
@@ -24,36 +25,39 @@
           </nav>
       </header>
     <br/>
-        <form onsubmit="onFormSubmit();event.preventDefault();Vaciar();" autocomplete="off">
-        <div class="tablita">
-          <table class="tabla" id="tabla">
-            <thead>
-              <tr> <!-- Horizontal -->
-                <th>Nombre</th> <!--Vertical-->
-                <th>Apellido</th>
-                <th>País</th>
-                <th>Opciones</th>
-              </tr>
-            </thead>
-              <tbody>
-              </tbody>
-          </table>
+   
+        
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th>Nombre</th> 
+                      <th>Apellido</th>
+                      <th>País</th>
+                      <th>Opciones</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label>Nombre</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+                <label>Apellido</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
+                <label>País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Escribir">
+              </form>
+        <br/>
+        <br/>
         </div>
-        <br/>
-        <br/>
-        <div class="caja">
-          <label>Ingrese Nombre</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
-          <label>Ingrese Apellido</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
-          <label>Ingrese País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
-        </div>
-        <br/>
-          <input class="submit" type="submit" value="Escribir">
-          <input class="submit" type="button" value="Editar" onclick="Ed()">
-          
-        </form>
-        <br/>
-        <br/>
-        </div>
+
+
    <footer class="footer">
       <a class="social footer-fb" href="https://facebook.com" target="_blank" ></a>
       <a class="social footer-twitter" href="https://twitter.com" target="_blank" ></a>

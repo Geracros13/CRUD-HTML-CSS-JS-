@@ -106,12 +106,25 @@ background-image: url('../images/github.ico');
 
 /*Lo del formulario*/
 
-input[type='submit'], button, [aria-label]{
+/* input[type='submit'], button, [aria-label]{
     cursor: pointer;
   }
 #spoiler{
    display: none;
-}
+} */
+/* input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+
+
 form{
  
     text-align: center;
@@ -147,6 +160,12 @@ td {
     height: 25px;
 }
 
+.caja{
+    display: block;
+
+
+}
+
 .caja label{
     font-family: 'Quicksand', sans-serif;
 }
@@ -156,6 +175,7 @@ td {
     height: 2em;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    
 }
 
 .submit{
