@@ -22,3 +22,10 @@ Donde tendremos las opciones de editar y eliminar registros para completar nuest
 
 #### Deploy Netfily
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b8182dba-86ca-4ed9-8f0b-73af773f75e8/deploy-status)](https://app.netlify.com/sites/gracious-nightingale-d57f68/deploys)
+
+
+###### A pesar de ser una Aplicacion simple, la optimize logrando los siguientes resultados!
+![Resultados](images/Mejorando.png)
+
+
+
