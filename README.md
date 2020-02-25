@@ -19,3 +19,6 @@ Donde tendremos las opciones de editar y eliminar registros para completar nuest
 ## Contacto
 [Linkedin](https://gt.linkedin.com/in/manuel-flores-abb71a15a/%7Bcountry%3Dno%2C+language%3Dno%7D?trk=people-guest_profile-result-card_result-card_full-click)
 [Twitter](https://twitter.com/Gerardo_fq)
+
+#### Deploy Netfily
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8182dba-86ca-4ed9-8f0b-73af773f75e8/deploy-status)](https://app.netlify.com/sites/gracious-nightingale-d57f68/deploys)
