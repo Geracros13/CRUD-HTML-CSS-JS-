@@ -1,6 +1,6 @@
-# CRUD con (HTML, CSS y Javascript)
-
 ## ¿Que es un CRUD?
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8a0c6e7-a471-4345-bd15-632cdb765e7d/deploy-status)](https://app.netlify.com/sites/peaceful-volhard-95178f/deploys)
 
 CRUD hace referencia a un acrónimo de "Create, Read, Update and Delete" que en español significa "Crear, Leer, Actualizar y Borrar" que son las cuatro funciones básicas de la persistencia de Bases de Datos.
 
