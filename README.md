@@ -20,9 +20,6 @@ Donde tendremos las opciones de editar y eliminar registros para completar nuest
 [Linkedin](https://gt.linkedin.com/in/manuel-flores-abb71a15a/%7Bcountry%3Dno%2C+language%3Dno%7D?trk=people-guest_profile-result-card_result-card_full-click)
 [Twitter](https://twitter.com/Gerardo_fq)
 
-#### Deploy Netfily
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e8a0c6e7-a471-4345-bd15-632cdb765e7d/deploy-status)](https://app.netlify.com/sites/peaceful-volhard-95178f/deploys)
-
 
 ###### A pesar de ser una Aplicacion simple, la optimize logrando los siguientes resultados!
 ![Resultados](images/Mejorando.png)
